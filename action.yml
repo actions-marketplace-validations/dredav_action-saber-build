@@ -1,0 +1,9 @@
+name: 'Build saber your project'
+description: 'Build your saber project for other action e.g. publish'
+author: 'dredav'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'
+  color: 'gray-dark'
